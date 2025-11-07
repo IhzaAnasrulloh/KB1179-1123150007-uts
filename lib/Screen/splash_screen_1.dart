@@ -6,6 +6,8 @@ class MySplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //TODO
+      //MEMBUAT BULAT DAN GAMBAR
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -27,13 +29,19 @@ class MySplashScreen extends StatelessWidget {
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold
-            ),)
+            ),
+            ),
+            Text("HALLO JAWA APAKAH KAMU MENGHILANGKAN DOMPET KAMU JAWA", 
+            style: TextStyle(
+              fontSize: 12,
+              color: Colors.deepPurple,
+              fontWeight: FontWeight.bold
+            ),
+            ),
           ],
         ),
       ),
     );
-    //TODO
-    //1. BUAT IMAGE DALAM CONTAINER
     
   }
 }
