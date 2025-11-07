@@ -12,6 +12,7 @@ class MySplashScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Spacer(),
             SizedBox(height: 20,),
             Container(
               width: 250,
@@ -85,9 +86,13 @@ class MySplashScreen extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurple
                 ),
-                 child: Text("Continue", style: TextStyle(fontSize: 14,),)),
+                 child: Text("Continue", 
+                 style: TextStyle(
+                  fontSize: 14,
+                  color: Colors.black),)),
                 )
-              )
+              ),
+              SizedBox(height: 80,)
           ],
         ),
       ),
