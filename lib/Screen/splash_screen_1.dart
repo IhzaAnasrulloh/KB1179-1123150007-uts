@@ -6,5 +6,7 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
+    //TODO
+    //1. BUAT IMAGE DALAM CONTAINER
   }
 }

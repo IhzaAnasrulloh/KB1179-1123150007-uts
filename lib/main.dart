@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'NIM : 1123150007, ihza',
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
     );
   }
