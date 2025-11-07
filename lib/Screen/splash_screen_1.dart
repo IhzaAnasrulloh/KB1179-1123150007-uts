@@ -16,7 +16,10 @@ class MySplashScreen extends StatelessWidget {
               height: 250,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.deepPurple
+                color: Colors.deepPurple,
+                image: DecorationImage(
+                  image: AssetImage("assets/images/jawir.jpg")
+                )
               ),
             )
           ],
