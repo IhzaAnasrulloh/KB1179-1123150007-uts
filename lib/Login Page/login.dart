@@ -113,6 +113,32 @@ class login extends StatelessWidget {
                   ),
                 ),
               ),
+
+              Row(
+                            children: [
+                              Expanded(child: Divider(color: Colors.deepPurple[300],)),
+                              Padding(padding: const EdgeInsets.symmetric(horizontal: 16),
+                              child: Text('atau',style: TextStyle(color: Colors.deepPurple[600]))),
+                              Expanded(child: Divider(color: Colors.deepPurple[300],)),
+                            ],
+                            
+                          ),
+                          OutlinedButton.icon(onPressed: (){},
+                          icon: Icon(Icons.g_mobiledata, color: Colors.deepPurple[800]),
+                          label: Text('Login dengan Google', style: TextStyle(color: Colors.deepPurple),),
+                          style: OutlinedButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(vertical: 12),
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(20),
+                            side: BorderSide(color: Colors.deepPurple[300]!),)
+                          ),),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text("Belum Punya Akun?"),
+                              TextButton(onPressed: (){},
+                              child: Text('Daftar Sekarang', style: TextStyle(color: Colors.deepPurple),))
+                            ],
+                          )
             ],
           ),
         ),
