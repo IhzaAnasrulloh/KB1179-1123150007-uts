@@ -38,6 +38,37 @@ class MySplashScreen extends StatelessWidget {
               fontWeight: FontWeight.bold
             ),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+              height: 10,
+              width: 10,
+              decoration: BoxDecoration(
+                color: Colors.deepPurple,
+                shape: BoxShape.circle,
+                ),
+              ),
+              SizedBox(width: 10),
+                Container(
+              height: 10,
+              width: 10,
+              decoration: BoxDecoration(
+                color: Colors.deepPurple[100]!,
+                shape: BoxShape.circle,
+                ),
+              ),
+                SizedBox(width: 10),
+                Container(
+              height: 10,
+              width: 10,
+              decoration: BoxDecoration(
+                color: Colors.deepPurple[100]!,
+                shape: BoxShape.circle,
+                ),
+              ),
+              ],
+            ),
           ],
         ),
       ),
