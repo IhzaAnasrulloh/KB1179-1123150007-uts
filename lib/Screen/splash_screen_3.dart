@@ -49,7 +49,7 @@ class MySplashScreen3 extends StatelessWidget {
               height: 10,
               width: 10,
               decoration: BoxDecoration(
-                color: Colors.deepPurple,
+                color: Colors.deepPurple[100]!,
                 shape: BoxShape.circle,
                 ),
               ),
@@ -67,7 +67,7 @@ class MySplashScreen3 extends StatelessWidget {
               height: 10,
               width: 10,
               decoration: BoxDecoration(
-                color: Colors.deepPurple[100]!,
+                color: Colors.deepPurple,
                 shape: BoxShape.circle,
                 ),
               ),
@@ -86,7 +86,7 @@ class MySplashScreen3 extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurple
                 ),
-                 child: Text("Continue", 
+                 child: Text("LOGIN", 
                  style: TextStyle(
                   fontSize: 14,
                   color: Colors.black),)),
