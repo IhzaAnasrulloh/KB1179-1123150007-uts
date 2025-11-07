@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MySplashScreen extends StatelessWidget {
-  const MySplashScreen({super.key});
+class MySplashScreen2 extends StatelessWidget {
+  const MySplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class MySplashScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20,),
-            Text("Welcome",
+            Text("Welcome KE YANG KEDUA",
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold
