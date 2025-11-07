@@ -25,12 +25,14 @@ class MySplashScreen extends StatelessWidget {
                 )
               ),
             ),
+            SizedBox(height: 20,),
             Text("Welcome",
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold
             ),
             ),
+            SizedBox(height: 2,),
             Text("HALLO JAWA APAKAH KAMU MENGHILANGKAN DOMPET KAMU JAWA", 
             style: TextStyle(
               fontSize: 12,
@@ -38,6 +40,7 @@ class MySplashScreen extends StatelessWidget {
               fontWeight: FontWeight.bold
             ),
             ),
+            SizedBox(height: 20,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -69,6 +72,16 @@ class MySplashScreen extends StatelessWidget {
               ),
               ],
             ),
+            Container(
+              child: ElevatedButton(
+                onPressed: (){
+
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.deepPurple
+                ),
+                 child: Text("Continue", style: TextStyle(fontSize: 14,),)),
+            )
           ],
         ),
       ),
