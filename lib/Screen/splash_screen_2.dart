@@ -94,7 +94,7 @@ class MySplashScreen2 extends StatelessWidget {
                   color: Colors.black),)),
                 )
               ),
-              SizedBox(height: 80,)
+              SizedBox(height: 250,)
           ],
         ),
       ),
